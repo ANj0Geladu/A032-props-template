@@ -5,6 +5,20 @@
   /* margin: 0; */
   padding: 0;
 }
-div{
+/* div{
   background-color: crimson;
+} */
+
+
+#carro1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 5px  black groove;
+  background-color: rgb(78, 100, 166);
 }
+#carro2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 5px solid black;
+  background-color: rgb(78, 100, 166);
+}
+
+

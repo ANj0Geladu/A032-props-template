@@ -1,12 +1,13 @@
-import Garagem from "./Componentes/Garagem";
-import "./styles.css";
 import React from "react";
-// import Carro from "./Componentes/Carro";
+import Garagem from "./Componentes/Garagem";
+import "./styles.css"
 
-export default function App() {
+function App() {
   return (
     <div>
-     
+     <h1>aula</h1>
+     <Garagem nome="Victor" idade={21}/>
     </div>
   );
 }
+export default App
