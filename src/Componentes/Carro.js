@@ -1,14 +1,13 @@
-function Carro() {
-  return (
-    <div>
-      <h2>Volksvagem</h2>
-      <ul>
-        <li>Cor: Azul</li>
-        <li>Ano: 2018</li>
-        <li>Flex: Não</li>
-      </ul>
-    </div>
-  );
-}
+import React from "react";
 
-export default Carro;
+function Carro(props){
+  return(
+    <div className="divPaiDoCarro">
+    <h2>Carro: {props.nome}</h2>
+    <p>cor: {props.cor}</p>
+    <p>ano {props.ano}</p>
+    <p>flex: {props.flex}</p>
+    </div>
+  )
+}
+export default Carro
