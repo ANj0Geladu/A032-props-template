@@ -6,8 +6,7 @@ import React from "react";
 export default function App() {
   return (
     <div>
-      <h1>Eu sou o APP</h1>
-      <Garagem nome="Victor"/>       
+     
     </div>
   );
 }
